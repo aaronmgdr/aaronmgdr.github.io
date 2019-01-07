@@ -13,7 +13,7 @@ export default () => (
 const menuCSS = css({
   display: 'flex',
   justifyContent: 'space-between',
-  backgroundColor: 'rgba(0,0,0, 0.1)'
+  backgroundColor: 'rgba(0,0,0, 0.05)'
 })
 const menuText = css({
   height: '1em',

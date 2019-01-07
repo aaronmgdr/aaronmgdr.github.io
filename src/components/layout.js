@@ -19,7 +19,7 @@ export default ({children, title}) => (
     <Menu/>
     {children}
     <div css={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-      <small>Something</small>
+      <small>@aaronmgdr</small>
     </div>
   </div>
 )
