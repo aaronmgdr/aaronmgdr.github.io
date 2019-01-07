@@ -1,3 +1,9 @@
 import React from "react"
+import Bio from '../components/bio'
+import Layout from '../components/layout'
 
-export default () => <div css={{color: 'red'}}>Hello world!</div>
+export default () => (
+  <Layout title= "Home">
+    <Bio/>
+  </Layout>
+)
