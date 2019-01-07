@@ -18,6 +18,9 @@ export default ({children, title}) => (
     </Helmet>
     <Menu/>
     {children}
+    <div css={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+      <small>Something</small>
+    </div>
   </div>
 )
 
@@ -27,8 +30,14 @@ export default ({children, title}) => (
 const layout = css({
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'stretch',
+  justifyContent: 'space-between',
   height: '100vh',
   width: '100vw',
   margin: 0,
+  '@media (min-device-width : 768px)': {
+    display: 'grid',
+    alignItems: 'start',
+    justifyItems: 'stretch',
+    justifyContent: 'center',
+  }
 })

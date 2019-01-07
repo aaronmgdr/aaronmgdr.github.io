@@ -7,7 +7,7 @@ export default () => (
     <p> Hi, I am Aaron DeRuvo.</p>
     <p>
       I work with product owners and designers to create interfaces for web and mobile apps that feel amazing to use.
-      Fluent in JavaScript (and Typescript), I've coded React based front-ends for startups like <a href="https://celo.org">Celo</a> and <a href="https://youearnedit.com">YouEarnedit</a>.
+      Fluent in JavaScript (and Typescript), I've <a href="https://github.com/aaronmgdr">coded</a> React based front-ends for startups like <a href="https://celo.org">Celo</a> and <a href="https://youearnedit.com">YouEarnedit</a>.
       I practice and believe in progress over perfection, listening with great attention, and diving into disconmfort.
     </p>
     <p>

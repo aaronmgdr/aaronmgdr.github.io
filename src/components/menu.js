@@ -16,6 +16,7 @@ const menuCSS = css({
   backgroundColor: 'rgba(0,0,0, 0.1)'
 })
 const menuText = css({
+  height: '1em',
   fontSize: '0.8em',
   padding: '1em',
   '&:hover': {
