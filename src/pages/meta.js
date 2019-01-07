@@ -7,7 +7,7 @@ export default () => (
     <Block>
       <h2> Why I (Probably) Over-Engineered This</h2>
       <p>
-        This is A couple page site written with React and built on the Gatsby framework.
+        This is a two page site written with <a href="https://github.com/aaronmgdr/aaronderuvo.com">React and built on the Gatsby framework</a>.
         I could have easily built this site quickly with plain HTML and CSS.
       </p>
       <p>
