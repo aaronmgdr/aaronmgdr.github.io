@@ -1,5 +1,4 @@
 import React from "react"
-import { css } from "@emotion/core"
 import Block from "../components/block"
 
 export default () => (
@@ -20,6 +19,6 @@ export default () => (
         write about software, work, relationship and other topics.
       </a>
     </p>
-    <p>Currently I live in San Francisco, California.</p>
+    <p>Currently, I live in San Francisco, California.</p>
   </Block>
 )
