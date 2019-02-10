@@ -15,6 +15,12 @@ theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     textShadow: "none",
     backgroundImage: "none",
     color: purple
+  },
+  p: {
+    backgroundColor: "#ffffff85",
+    display: "inline-block",
+    paddingInlineStart: "inherit",
+    paddingInlineEnd: "inherit"
   }
 })
 

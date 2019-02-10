@@ -5,7 +5,7 @@ import Menu from "./menu"
 
 import Background from "./background"
 
-export default class Layout extends React.Component {
+export default class Layout extends React.PureComponent {
   render() {
     const { title, children } = this.props
     return (

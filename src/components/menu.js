@@ -16,7 +16,7 @@ export default () => (
 const menuCSS = css({
   display: "flex",
   justifyContent: "space-between",
-  backgroundColor: "rgba(0,0,0, 0.05)",
+  backgroundColor: "#ffffff85",
   width: "100vw"
 })
 const menuText = css({
@@ -24,7 +24,6 @@ const menuText = css({
   fontSize: "0.8em",
   padding: "0.2em 1em",
   "&:hover": {
-    backgroundColor: "rgba(0,0,0, 0.025)",
     color: "white"
   }
 })
