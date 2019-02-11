@@ -17,5 +17,6 @@ const style = css({
   position: "fixed",
   bottom: 10,
   right: 20,
-  fontSize: "0.5rem"
+  fontSize: "0.5rem",
+  opacity: 0.5
 })

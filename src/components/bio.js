@@ -3,7 +3,7 @@ import Block from "../components/block"
 
 export default () => (
   <Block>
-    <p> Hi, I am Aaron DeRuvo.</p>
+    <p> Hi, I am Aaron DeRuvo</p>
     <p>
       I work with product owners and designers to create interfaces for web and
       mobile apps that feel amazing to use. Fluent in JavaScript (and

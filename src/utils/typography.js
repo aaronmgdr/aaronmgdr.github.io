@@ -1,7 +1,9 @@
 import Typography from "typography"
 import theme from "typography-theme-twin-peaks"
 
-const purple = "#0d5755"
+export const themeColor = "#0f5e70"
+
+
 
 theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
   a: {
@@ -14,13 +16,13 @@ theme.overrideThemeStyles = ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     textDecoration: "none",
     textShadow: "none",
     backgroundImage: "none",
-    color: purple
+    color: themeColor,
   },
   p: {
     backgroundColor: "#ffffff85",
     display: "inline-block",
-    paddingInlineStart: "inherit",
-    paddingInlineEnd: "inherit"
+    paddingInlineStart: "0.5rem",
+    paddingInlineEnd: "0.5rem"
   }
 })
 

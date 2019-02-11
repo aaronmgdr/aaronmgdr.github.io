@@ -11,7 +11,7 @@ export default () => (
         <a href="https://github.com/aaronmgdr/aaronderuvo.com">
           React and built on the Gatsby framework
         </a>
-        . I could have easily built this site quickly with plain HTML and CSS.
+        . I could have probably built this site with plain HTML and CSS.
       </p>
       <p>
         But this isn't just a personal and professional about me, it's a

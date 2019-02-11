@@ -2,10 +2,11 @@
   "name": "aaronderuvo.com",
   "private": true,
   "description": "A Personal Site",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",

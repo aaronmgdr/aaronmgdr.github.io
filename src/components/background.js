@@ -43,11 +43,10 @@ export default class Background extends React.PureComponent {
   }
 
   componentDidMount() {
-    setInterval(this.setNextImage, 1000 * DURATION_IN_SECONDS)
+    setInterval(this.setNextImage, 999 * DURATION_IN_SECONDS)
   }
 
   setNextImage = () => {
-    debugger
     this.setState(({ currentImage }) => ({
       currentImage:
         currentImage + 1 <= this.props.images.length - 1 ? currentImage + 1 : 0
@@ -71,9 +70,6 @@ export default class Background extends React.PureComponent {
           ]}
         />
         <Attribution photographer={this.currentImage().photographer} />
-        {this.props.images.map(image => (
-          <link key={image.src} rel="prefetch" href={image.src} />
-        ))}
       </div>
     )
   }
@@ -84,11 +80,11 @@ const crossfade = keyframes`
     opacity: 1
   }
 
-  12% {
+  11% {
     opacity: 0
   }
 
-  85% {
+  87% {
     opacity: 0 
   }
 
@@ -128,7 +124,7 @@ const overlay = css({
   overflow: "hidden",
   position: "absolute",
   backgroundColor: "white",
-  animation: `${crossfade} ${DURATION_IN_SECONDS}s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both`
+  animation: `${crossfade} ${DURATION_IN_SECONDS}s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both`
 })
 
 const positioning = css({ position: "fixed", zIndex: -1 })
