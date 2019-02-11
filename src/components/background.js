@@ -17,6 +17,13 @@ export default class Background extends React.PureComponent {
     }
   }
 
+  componentWillMount() {
+    // prefetch images
+    this.props.images.forEach(element => {
+      new Image().src = element.src
+    })
+  }
+
   static defaultProps = {
     images: [
       {
