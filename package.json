@@ -2,7 +2,7 @@
   "name": "aaronderuvo.com",
   "private": true,
   "description": "A Personal Site",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -11,7 +11,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "bump minor && gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "@emotion/core": "^10.0.5",
